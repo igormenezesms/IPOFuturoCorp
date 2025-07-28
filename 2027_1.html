@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>2027.1 - Marcos e Entregas</title>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Rubik', sans-serif;
+      background-color: #19253f;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    h1 {
+      color: #ffffff;
+      font-size: 32px;
+      margin-bottom: 20px;
+      font-weight: 700;
+      text-align: center;
+    }
+
+    p {
+      color: #ffffff;
+      font-size: 18px;
+      text-align: center;
+      max-width: 800px;
+      margin-bottom: 40px;
+      font-weight: 400;
+    }
+
+    .departments-container {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+      width: 90%;
+      max-width: 1000px;
+    }
+
+    .department-box {
+      background-color: #244676;
+      color: #ffffff;
+      font-size: 16px;
+      font-weight: 500;
+      text-align: center;
+      padding: 20px;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: transform 0.3s ease, background-color 0.3s ease;
+    }
+
+    .department-box:hover {
+      transform: scale(1.1);
+      background-color: #e4702b;
+    }
+
+    .back-button {
+      margin-top: 40px;
+      padding: 10px 20px;
+      background-color: #e4702b;
+      color: #ffffff;
+      text-decoration: none;
+      font-size: 16px;
+      font-weight: 500;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+    }
+
+    .back-button:hover {
+      background-color: #244676;
+    }
+  </style>
+</head>
+<body>
+  <h1>2027.1</h1>
+  <p>
+    Manutenção do crescimento acelerado com base em uma estrutura robusta. Almeja-se que 2027 seja o ano de estar pronto para IPO. No foco da franquia da Futuro ser vitrine para investidores e consolidar modelo de consultoria PJ.
+  </p>
+  
+  <div class="departments-container">
+    <div class="department-box" onclick="location.href='2027_1_marketing.html'">Marketing</div>
+    <div class="department-box" onclick="location.href='2027_1_expansao_comercial.html'">Expansão Comercial</div>
+    <div class="department-box" onclick="location.href='2027_1_franquias_canais.html'">Franquias e Canais</div>
+    <div class="department-box" onclick="location.href='2027_1_tecnologia_inovacao.html'">Tecnologia e Inovação</div>
+    <div class="department-box" onclick="location.href='2027_1_novos_produtos_servicos.html'">Novos Produtos e Serviços</div>
+    <div class="department-box" onclick="location.href='2027_1_governanca_ipo.html'">Governança e Preparação para IPO</div>
+  </div>
+
+  <a href="index.html" class="back-button">Voltar para a Linha do Tempo</a>
+</body>
+</html>
